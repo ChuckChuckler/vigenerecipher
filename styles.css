@@ -1,0 +1,145 @@
+@keyframes down {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes up{
+    from{margin-top: 55px; margin-bottom: 0px;}
+    to{margin-top: 0px;}
+}
+
+body{
+    background-color: #272635;
+}
+
+.container{
+    background-color: #0B0500;
+    height: 75%;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-style: double;
+    border-color: #A6A6A8;
+    border-width: 6px;
+    display: flex;
+    justify-content: space-around;
+    animation-name: up;
+    animation-duration: 2s;
+}
+
+.container:hover{
+    height: 76%;
+    width: 91%;
+}
+
+h1{
+    color: #CECECE;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    text-decoration: underline 1px solid;
+    line-height: 2px;
+    font-size: 48px;
+}
+
+h2{
+    color: #A6A6A8;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+}
+
+.titlediv{
+    text-align: center;
+    margin-top: 25px;
+    animation-name: down;
+    animation-duration: 2s;
+}
+
+label{
+    color: #E8E9F3;
+}
+
+h3{
+    color: #CECECE;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+}
+
+button{
+    width: 30%;
+    height: 5%;
+    border-color: #E8E9F3;
+    color: #0B0500;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+}
+
+button:hover{
+    width: 31%;
+    height: 6%;
+    background-color: #A6A6A8;
+    color:#272635;
+}
+
+.encode{
+    height: 8%;
+    display: block;
+    margin: auto;
+}
+
+.encode:hover{
+    height: 9%;
+}
+
+.innerContainer{
+    width: 49%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A6A6A8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.innerContainer:hover{
+    width: 50%;
+    height: 101%;
+}
+
+.clipboard{
+    width: 35px;
+    height: 35px;
+    font-size: 1vw;
+    display: none;
+}
+
+.clipboard:hover{
+    width: 36px;
+    height: 36px;
+}
+
+p{
+    color: #CECECE;
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+}
+
+textarea{
+    width: 100%;
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+}
+
+.msg{
+    height: 60%;
+}
+
+.key{
+    height: 15%;
+}
+
+label{
+    font-size: 20px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+}

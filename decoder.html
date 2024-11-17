@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Sedan+SC&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titlediv">
+        <h1>Vigenère Cipher</h1>
+        <h2>Decoder</h2>
+        <button onclick="rdrctEncoder()">Switch to Encoder</button>
+    </div>
+    <br>
+    <div class="container">
+        <div class="innerContainer">
+            <label for="msg">Message</label>
+            <br>
+            <textarea id="msg" name="msg" class="msg"></textarea>
+            <br>
+            <label for="key">Key</label>
+            <br>
+            <textarea id="key" name="key" class="key"></textarea>
+            <br>
+            <br>
+            <button class="encode" onclick="decode()">Decode</button>
+        </div>
+        <div class="innerContainer">
+            <h3 id="display"></h3>
+            <button class="clipboard" title="Copy" onclick="copy()" id="copy"><i class="fa fa-clipboard"></i></button>
+            <p id="copyMsg"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
